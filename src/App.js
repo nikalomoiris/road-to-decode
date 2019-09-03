@@ -79,6 +79,10 @@ function App() {
           <div className="line3"></div>
         </div>
       </nav>
+      <div className="home-text">
+        <h3 className="home-title">Orton-Gillingham Tutoring</h3>
+        <p className="home-description">Online Tutoring providing multi-sensory, individualized, diagnostically driven, prescriptive, direct, and explicit instruction in reading and writing. Orton-Gillingham is an instructional approach intended primarily for use with persons who have difficulty with reading, spelling, and writing of the sort associated with dyslexia and language based learning challenges.</p>
+      </div>
     </React.Fragment>
   );
 }
