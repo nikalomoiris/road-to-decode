@@ -79,9 +79,18 @@ function App() {
           <div className="line3"></div>
         </div>
       </nav>
-      <div className="home-text">
-        <h3 className="home-title">Orton-Gillingham Tutoring</h3>
-        <p className="home-description">Online Tutoring providing multi-sensory, individualized, diagnostically driven, prescriptive, direct, and explicit instruction in reading and writing. Orton-Gillingham is an instructional approach intended primarily for use with persons who have difficulty with reading, spelling, and writing of the sort associated with dyslexia and language based learning challenges.</p>
+      {/* <div className="home">
+        <div className="home-text">
+          <h3 className="home-title">Orton-Gillingham Tutoring</h3>
+          <p className="home-description">Online Tutoring providing multi-sensory, individualized, diagnostically driven, prescriptive, direct, and explicit instruction in reading and writing. Orton-Gillingham is an instructional approach intended primarily for use with persons who have difficulty with reading, spelling, and writing of the sort associated with dyslexia and language based learning challenges.</p>
+        </div>
+      </div> */}
+
+      <div className="the-tutor">
+        <div className="the-tutor-text">
+          <h3 className="the-tutor-title">Georgia Stamos</h3>
+          <p className="the-tutor-description">I am a Certified Orton Gillingham Practitioner, providing multi-sensory instruction to children with reading and spelling difficulties. I have received a Masters Degree in General and Special Education and have worked with students in grades 1-6 since 2009, providing individualized instructional support in Reading, Writing, and Math.</p>
+        </div>
       </div>
     </React.Fragment>
   );
