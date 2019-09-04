@@ -14,6 +14,7 @@
 
 body{
   background-color: var(--primary-bg-color);
+  overflow-x: hidden;
 }
 
 .logo{
@@ -67,29 +68,52 @@ nav{
 .home{
   background-image: url("./assets/Home-background.png");
   height: 92vh;
-  background-position: bottom right;
+  background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .home-text{
-  display: flex;
-  flex-direction: column;
-  height: 92vh;
+  display: grid;
+  height: 82vh;
   width: 50%;
-  justify-content: center;
-  align-items: flex-start;
+  padding: 10vh;
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "hometitle"
+  "homedescription"
+  "homedyslexiatitle"
+  "homedyslexiadescription";
 }
 
 .home-title{
-  margin: 0 0 10% 10%;
+  grid-area: hometitle;
   color: var(--main-text-color);
   font-family: 'Poppins', sans-serif;
   font-size: 28px;
 }
 
 .home-description{
-  margin: 0 10% 0 10%;
+  margin: 5vh 0 10vh 0;
+  grid-area: homedescription;
+  color: var(--main-text-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.home-dyslexia-title{
+  grid-area: homedyslexiatitle;
+  color: var(--main-text-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+}
+
+.home-dyslexia-description{
+  margin-top: 5vh;
+  grid-area: homedyslexiadescription;
   color: var(--main-text-color);
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -139,17 +163,22 @@ nav{
 
   .home-text{
     width: 100%;
-    justify-content: flex-start;
-    align-items: center;
+    padding: 5vh;
   }
 
   .home-title{
-    margin: 10% 0 10% 10%;
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .home-description{
-    margin: 0 10% 0 10%;
+    font-size: 14px;
+  }
+
+  .home-dyslexia-title{
+    font-size: 24px;
+  }
+
+  .home-dyslexia-description{
     font-size: 14px;
   }
 
