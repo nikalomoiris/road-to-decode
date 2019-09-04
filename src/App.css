@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #D3C5C5
+}
+
 .logo{
   display: inline-flex;
 }
@@ -18,7 +22,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #F0FFFF;
+  background-color: #D3C5C5;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -33,7 +37,7 @@ nav{
 }
 
 .nav-links a {
-  color: #410060;
+  color: #773A26;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -48,7 +52,7 @@ nav{
   width: 25px;
   height: 3px;
   margin: 5px;
-  background-color: #410060;
+  background-color: #773A26;
   transition: all 0.3s ease;
 }
 
@@ -71,14 +75,14 @@ nav{
 
 .home-title{
   margin: 0 0 10% 10%;
-  color: #410060;
+  color: #773A26;
   font-family: 'Poppins', sans-serif;
   font-size: 28px;
 }
 
 .home-description{
   margin: 0 10% 0 10%;
-  color: #410060;
+  color: #773A26;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
 }
@@ -102,14 +106,14 @@ nav{
 
 .the-tutor-title{
   margin: 0 0 10% 10%;
-  color: #410060;
+  color: #773A26;
   font-family: 'Poppins', sans-serif;
   font-size: 28px;
 }
 
 .the-tutor-description{
   margin: 0 10% 0 10%;
-  color: #410060;
+  color: #773A26;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
 }
@@ -147,20 +151,20 @@ nav{
   }
 
   .the-tutor-text{
-    width: 30%;
-    justify-content: center;
+    margin: 10% 10% 10% 10%;
+    justify-content: space-between;
     align-items: flex-start;
   }
 
   .the-tutor-title{
-    margin: 0 0 10% 10%;
+    margin: 50% 0 0 10%;
     font-size: 28px;
   }
 
   .the-tutor-description{
-    margin: 0 10% 0 10%;
-    font-size: 14px;
-    width: 180%;
+    margin: 0 10% 50% 10%;
+    font-size: 18px;
+    width: 150%;
   }
 
   .nav-links{
