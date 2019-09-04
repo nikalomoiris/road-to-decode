@@ -151,7 +151,7 @@ nav{
   }
 
   .the-tutor-text{
-    margin: 10% 10% 10% 10%;
+    margin: 0 10% 10% 10%;
     justify-content: space-between;
     align-items: flex-start;
   }
@@ -172,7 +172,7 @@ nav{
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: azure;
+    background-color: #D3C5C5;
     display: flex;
     flex-direction: column;
     align-items: center;
