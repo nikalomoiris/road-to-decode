@@ -42,6 +42,10 @@ nav{
   width: 60%;
 }
 
+.nav-links-shadow{
+  box-shadow: -0.1px 20px 20px var(--main-text-color);
+}
+
 .nav-links li{
   list-style: none;
 }
@@ -273,7 +277,7 @@ blockquote {
     flex-direction: column;
     align-items: center;
     width: 50%;
-    transform: translateX(100%);
+    transform: translateX(110%);
     transition: transform 0.5s ease-in;
   }
 

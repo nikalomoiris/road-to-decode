@@ -47,6 +47,7 @@ function App() {
 
   const burgerClick = () => {
     sidebar.current.classList.toggle('nav-active');
+    sidebar.current.classList.toggle('nav-links-shadow');
     burger.current.classList.toggle('toggle');
     setNavOpened(!navOpened);
   };
