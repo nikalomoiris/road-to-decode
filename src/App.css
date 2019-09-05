@@ -208,6 +208,61 @@ blockquote {
   font-size: 14px;
 }
 
+.approach{
+  background-image: url("./assets/Home-background.png");
+  height: 92vh;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.approach-text{
+  display: grid;
+  height: 82vh;
+  width: 70%;
+  padding: 10vh;
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "approachtitle"
+  "approachdescription";
+}
+
+.approach-title{
+  grid-area: approachtitle;
+  color: var(--main-text-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  margin-bottom: 5vh;
+}
+
+.approach-description{
+  margin: 5vh 0 10vh 0;
+  grid-area: approachdescription;
+  color: var(--main-text-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.approach-description p{
+  margin-bottom: 5vh;
+}
+
+.approach-description ul{
+  text-align: left;
+  margin-bottom: 10vh;
+}
+
+.approach-description ul li h4{
+  margin-bottom: 2vh;
+}
+
+.approach-description ul li p{
+  margin-bottom: 5vh;
+}
+
 @media screen and (max-width: 1400px){
   .nav-links{
     width: 80%;
@@ -264,6 +319,19 @@ blockquote {
   }
 
   .dyslexia-description{
+    font-size: 14px;
+  }
+
+  .approach-text{
+    width: 100%;
+    padding: 5vh;
+  }
+
+  .approach-title{
+    font-size: 18px;
+  }
+
+  .approach-description{
     font-size: 14px;
   }
 
