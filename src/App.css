@@ -253,6 +253,7 @@ blockquote {
 .approach-description ul{
   text-align: left;
   margin-bottom: 10vh;
+  margin-left: 20vh;
 }
 
 .approach-description ul li h4{
@@ -311,7 +312,7 @@ blockquote {
 
   .dyslexia-text{
     width: 100%;
-    padding: 5vh 10vh 5vh 10vh;
+    padding: 5vh;
   }
 
   .dyslexia-title{
@@ -333,6 +334,10 @@ blockquote {
 
   .approach-description{
     font-size: 14px;
+  }
+
+  .approach-description ul{
+    margin-left: 5vh;
   }
 
   .nav-links{
