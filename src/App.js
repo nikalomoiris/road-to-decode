@@ -89,14 +89,12 @@ function App() {
             <div className="line3"></div>
           </div>
         </nav>
-        <div className="touch">
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/tutor' component={Tutor} />
             <Route path='/dyslexia' component={Dyslexia} />
             <Route path='/approach' component={Approach} />
           </Switch>
-        </div>
       </Router>
     </React.Fragment>
   );

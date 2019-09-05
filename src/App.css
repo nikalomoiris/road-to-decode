@@ -3,9 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-.touch{
-  -webkit-overflow-scrolling: touch;
-}
 
 :root{
   --primary-bg-color: #E5D7CC;
@@ -75,7 +72,7 @@ nav{
 
 .home{
   background-image: url("./assets/Home-background.png");
-  height: 92vh;
+  /* height: 92vh; */
   background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -83,7 +80,7 @@ nav{
 
 .home-text{
   display: grid;
-  height: 82vh;
+  /* height: 82vh; */
   width: 50%;
   padding: 10vh;
   justify-items: center;
@@ -129,7 +126,7 @@ nav{
 
 .the-tutor{
   background-image: url("./assets/the-tutor-background.png");
-  height: 92vh;
+  /* height: 92vh; */
   background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -137,7 +134,7 @@ nav{
 
 .the-tutor-text{
   display: grid;
-  height: 82vh;
+  /* height: 82vh; */
   width: 50%;
   padding: 10vh;
   justify-items: center;
@@ -176,7 +173,7 @@ blockquote {
 
 .dyslexia{
   background-image: url("./assets/Home-background.png");
-  height: 92vh;
+  /* height: 92vh; */
   background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -184,7 +181,7 @@ blockquote {
 
 .dyslexia-text{
   display: grid;
-  height: 82vh;
+  /* height: 82vh; */
   width: 50%;
   padding: 10vh;
   justify-items: center;
@@ -213,7 +210,7 @@ blockquote {
 
 .approach{
   background-image: url("./assets/Home-background.png");
-  height: 92vh;
+  /* height: 92vh; */
   background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -221,7 +218,7 @@ blockquote {
 
 .approach-text{
   display: grid;
-  height: 82vh;
+  /* height: 82vh; */
   width: 70%;
   padding: 10vh;
   justify-items: center;
