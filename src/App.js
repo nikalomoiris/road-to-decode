@@ -11,6 +11,7 @@ import { Tutor } from './components/Tutor';
 import { Home } from './components/Home';
 import { Approach } from './components/Approach';
 import { Services } from './components/Services';
+import { Testimonials } from './components/Testimonials';
 
 function App() {
   const [navOpened, setNavOpened] = useState(false);
@@ -96,6 +97,7 @@ function App() {
             <Route path='/dyslexia' component={Dyslexia} />
             <Route path='/approach' component={Approach} />
             <Route path='/services' component={Services} />
+            <Route path='/testimonials' component={Testimonials} />
           </Switch>
       </Router>
     </React.Fragment>
