@@ -12,6 +12,7 @@ import { Home } from './components/Home';
 import { Approach } from './components/Approach';
 import { Services } from './components/Services';
 import { Testimonials } from './components/Testimonials';
+import { Contact } from './components/Contact';
 
 function App() {
   const [navOpened, setNavOpened] = useState(false);
@@ -98,6 +99,7 @@ function App() {
             <Route path='/approach' component={Approach} />
             <Route path='/services' component={Services} />
             <Route path='/testimonials' component={Testimonials} />
+            <Route path='/contact' component={Contact} />
           </Switch>
       </Router>
     </React.Fragment>
