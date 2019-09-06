@@ -372,7 +372,7 @@ blockquote {
 }
 
 .company-info{
-  background: #dae5cc;
+  background: #FFF8F2;
 }
 
 .company-info h3, .company-info ul{
@@ -381,7 +381,7 @@ blockquote {
 }
 
 .contact{
-  background:#f9feff;
+  background:#FFF8F2;
 }
 
 /* FORM STYLES */
@@ -406,11 +406,11 @@ blockquote {
 .contact form button, .contact form input, .contact form textarea{
   width:100%;
   padding:1em;
-  border:1px solid #dae5cc;
+  border:1px solid #BA7E5C;
 }
 
 .contact form button{
-  background:#dae5cc;
+  background:#BA7E5C;
   border:0;
   text-transform: uppercase;
 }
