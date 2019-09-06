@@ -14,7 +14,7 @@ export const Contact = () => (
             </div>
             <div className="contact">
                 <h3>Contact Me</h3>
-                <form name="contact" netlify>
+                <form name="contact" method="post" netlify>
                     <input type="hidden" name="form-name" value="contact" />
                     <p>
                         <label>Name</label>
@@ -33,7 +33,7 @@ export const Contact = () => (
                         <textarea name="message" rows="5"></textarea>
                     </p>
                     <p className="full">
-                        <button>Submit</button>
+                        <button type="submit">Submit</button>
                     </p>
                 </form>
             </div>
