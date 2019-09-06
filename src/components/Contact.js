@@ -14,7 +14,8 @@ export const Contact = () => (
             </div>
             <div className="contact">
                 <h3>Contact Me</h3>
-                <form netlify>
+                <form name="contact" netlify>
+                    <input type="hidden" name="form-name" value="contact" />
                     <p>
                         <label>Name</label>
                         <input type="text" name="name"/>
