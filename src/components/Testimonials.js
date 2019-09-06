@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Testimonials = () => (
-    <div className="approach">
+    <div className="approach testimonials">
         <div className="approach-text">
             <h3 className="approach-title">
             Testimonials

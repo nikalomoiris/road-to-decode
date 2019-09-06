@@ -190,7 +190,7 @@ blockquote {
 }
 
 .dyslexia{
-  background-image: url("./assets/Home-background.png");
+  background-image: url("./assets/Dyslexia-background.png");
   /* height: 92vh; */
   background-position: top right;
   background-repeat: no-repeat;
@@ -227,11 +227,15 @@ blockquote {
 }
 
 .approach{
-  background-image: url("./assets/Home-background.png");
+  background-image: url("./assets/Approach-background.png");
   /* height: 92vh; */
   background-position: top right;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.testimonials{
+  background-image: none;
 }
 
 .approach-text{
@@ -283,7 +287,7 @@ blockquote {
 }
 
 .services{
-  background-image: url("./assets/Home-background.png");
+  background-image: url("./assets/Services-background.png");
   /* height: 92vh; */
   background-position: top right;
   background-repeat: no-repeat;
