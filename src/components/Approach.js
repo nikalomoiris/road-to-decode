@@ -4,12 +4,15 @@ export const Approach = () => (
            <div className="approach">
                <div className="approach-text">
                    <h3 className="approach-title">
-                       The Orton Gillingham approach is language based,
+                       The Orton Gillingham Approach
+                   </h3>
+            <div className="approach-description">
+                <p>
+                    Is language based,
                        multisensory, structured, sequential, cumulative, and
                        flexible. It is personalized depending on the needs of
                        the individual learner.
-                   </h3>
-                   <div className="approach-description">
+                </p>
                        <p>
                            <strong>
                                Orton Gillingham Approach is teaching and
