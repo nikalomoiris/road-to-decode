@@ -348,8 +348,12 @@ blockquote {
   margin-bottom: 5vh;
 }
 
+.smaller{
+  font-size: 10px;
+}
+
 .note{
-  color: var(--light);
+  color: #666004;
   text-align: left;
 }
 
@@ -378,7 +382,7 @@ blockquote {
 }
 
 .company-info{
-  background: #e0dda8;
+  background: #fffeed;
 }
 
 .company-info h3, .company-info ul{
@@ -387,7 +391,7 @@ blockquote {
 }
 
 .contact{
-  background:#e0dda8;
+  background:#fffeed;
 }
 
 /* FORM STYLES */
@@ -478,7 +482,7 @@ blockquote {
 
   .the-tutor-text{
     width: 100%;
-    /* padding: 5vh; */
+    padding: 5vh;
   }
 
   .the-tutor-title{

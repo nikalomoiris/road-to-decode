@@ -20,7 +20,7 @@ export const Dyslexia = () => (
                            abilities. These difficulties typically result from a
                            deficit in the phonological component of language
                            that is often unexpected in relation to other
-                           cogntivie abilities and the provision of effective
+                           cognitive abilities and the provision of effective
                            classroom instruction. Secondary consequences may
                            include problems in reading comprehension and reduced
                            reading experience that can impede growth of

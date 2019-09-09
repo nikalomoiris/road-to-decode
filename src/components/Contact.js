@@ -7,9 +7,8 @@ export const Contact = () => (
             <div className="company-info">
                 <h3>Georgia Stamos</h3>
                 <ul>
-                    <li><i className="fa fa-road"></i> 44 Something st</li>
-                    <li><i className="fa fa-phone"></i> (555) 555-5555</li>
-                    <li><i className="fa fa-envelope"></i> test@acme.test</li>
+                    <li><i className="fa fa-phone"></i> (917) 936-6408</li>
+                    <li><i className="fa fa-envelope"></i> georgia@roadtodecode.com</li>
                 </ul>
             </div>
             <div className="contact">

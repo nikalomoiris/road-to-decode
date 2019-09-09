@@ -5,13 +5,13 @@ export const Home = () => (
         <div className="home-text">
             <h3 className="home-title">Orton-Gillingham Tutoring</h3>
             <p className="home-description">
-                Online Tutoring providing multi-sensory, individualized,
-                diagnostically driven, prescriptive, direct, and explicit
-                instruction in reading and writing. Orton-Gillingham is
-                an instructional approach intended primarily for use with
-                persons who have difficulty with reading, spelling, and
-                writing of the sort associated with dyslexia and language
-                based learning challenges.
+                Tutoring services providing multi-sensory,
+                individualized, diagnostically driven, prescriptive,
+                direct, and explicit instruction in reading and writing.
+                Orton-Gillingham is an instructional approach intended
+                primarily for use with persons who have difficulty with
+                reading, spelling, and writing of the sort associated
+                with dyslexia and language based learning challenges.
             </p>
             <h4 className="home-dyslexia-title">What is Dyslexia</h4>
             <p className="home-dyslexia-description">
@@ -27,7 +27,7 @@ export const Home = () => (
                 and by poor spelling and decoding abilities. These
                 difficulties typically result from a deficit in the
                 phonological component of language that is often
-                unexpected in relation to other cogntivie abilities and
+                unexpected in relation to other cognitive abilities and
                 the provision of effective classroom instruction.
                 Secondary consequences may include problems in reading
                 comprehension and reduced reading experience that can
