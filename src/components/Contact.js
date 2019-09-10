@@ -2,7 +2,6 @@ import React from 'react';
 
 export const Contact = () => (
     <div className="container">
-        <h1 className="brand">Road to Decode</h1>
         <div className="wrapper">
             <div className="company-info">
                 <h3>Georgia Stamos</h3>
