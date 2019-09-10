@@ -33,6 +33,9 @@ export const Home = () => (
                 comprehension and reduced reading experience that can
                 impede growth of vocabulary and background knowledge.
             </p>
+            <div className="orton-logo">
+                <img src="orton-logo.jpeg" alt="orton gillingham logo" />
+            </div>
         </div>
     </div>
 );

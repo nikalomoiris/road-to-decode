@@ -92,6 +92,16 @@ nav{
   "homedyslexiadescription";
 }
 
+.orton-logo {
+  margin-top: 5vh;
+  justify-self: left;
+}
+
+.orton-logo img{
+  height: 12vh;
+  width: auto;
+}
+
 .home-title{
   grid-area: hometitle;
   color: #666004;
