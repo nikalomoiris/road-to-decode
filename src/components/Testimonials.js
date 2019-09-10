@@ -17,6 +17,9 @@ export const Testimonials = () => (
                 <p className="right-person">Student, 3th Grade</p>
                 <blockquote className="left-quote">Thank you for all you have done for our son, you were a great help and will not be forgotten at all. We hope you like our gift, it is symbolic. The candle represents, as the Greeks say "The light of knowledge" which you gave to our son. Thank You!</blockquote>
                 <p className="left-person">Parent, 4th Grade Student</p>
+            <div className="orton-logo">
+                <img src="orton-logo.jpeg" alt="orton gillingham logo" />
+            </div>
             </div>
         </div>
     </div>

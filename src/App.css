@@ -7,7 +7,7 @@
 :root{
   --primary-bg-color: white;
   --seconadary-bg-color: #BA7E5C;
-  --main-text-color: #C6C381;
+  --main-text-color: #868455;
   --dark: #732D1D;
   --light: #9C502A;
 }
@@ -95,6 +95,7 @@ nav{
 .orton-logo {
   margin-top: 5vh;
   justify-self: left;
+  text-align: left;
 }
 
 .orton-logo img{

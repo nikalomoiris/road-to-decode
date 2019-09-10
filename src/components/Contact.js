@@ -36,5 +36,8 @@ export const Contact = () => (
                 </form>
             </div>
         </div>
+            <div className="orton-logo">
+                <img src="orton-logo.jpeg" alt="orton gillingham logo" />
+            </div>
     </div>
 );

@@ -74,6 +74,9 @@ export const Approach = () => (
                            reinforcement is provided to encourage success
                            and self-confidence of the student.
                        </p>
+            <div className="orton-logo">
+                <img src="orton-logo.jpeg" alt="orton gillingham logo" />
+            </div>
                    </div>
                </div>
            </div>

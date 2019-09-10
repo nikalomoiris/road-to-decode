@@ -44,6 +44,9 @@ export const Tutor = () => (
                     Gillingham approach to instruct children with
                     Dyslexia and Language-based learning difficulties.
                 </p>
+            <div className="orton-logo">
+                <img src="orton-logo.jpeg" alt="orton gillingham logo" />
+            </div>
             </div>
         </div>
     </div>

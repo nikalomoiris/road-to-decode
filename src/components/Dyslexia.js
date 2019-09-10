@@ -40,6 +40,9 @@ export const Dyslexia = () => (
                            developed superior skills in other parts of the
                            nervous system.
                        </p>
+            <div className="orton-logo">
+                <img src="orton-logo.jpeg" alt="orton gillingham logo" />
+            </div>
                    </div>
                </div>
            </div>
